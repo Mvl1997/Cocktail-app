@@ -1,0 +1,39 @@
+$roos:pink;
+body{
+    background-color: $roos;
+}
+
+form {
+    max-width: 100%;
+    display: flex;
+    gap: 2rem;
+    input {
+      margin-bottom: 0;
+    }
+    input[type="text"] {
+      width: 100%;
+    }
+    input[type="submit"] {
+      width: 200px;
+      background-color: black;
+      
+    }
+  }
+  section {
+    justify-content: flex-start;
+    gap: 3rem;
+    margin: 2rem 0;
+    aside {
+      margin: 0;
+      margin-bottom: 2rem;
+    }
+  }
+  
+  a b,
+  a em,
+  a i,
+  a strong,
+  button,
+  input[type="submit"] {
+    margin: 0;
+  }
